@@ -1,9 +1,37 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.lollipop</groupId>
-    <artifactId>xql</artifactId>
+    <groupId>win.javed</groupId>
+    <artifactId>lulu</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/lollipoppp/lulu</url>
+        <connection>git@github.com:lollipoppp/lulu.git</connection>
+        <developerConnection>scm:git:git@github.com:lollipoppp/lulu.git</developerConnection>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>wangjia</name>
+            <email>wangjia_1919@163.com</email>
+            <url>https://blog.aimer.love</url>
+        </developer>
+    </developers>
+
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
 
     <properties>
         <junit.version>4.11</junit.version>
@@ -12,6 +40,7 @@
         <kotlin.version>1.0.3</kotlin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
 
     <build>
         <plugins>
