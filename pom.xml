@@ -29,7 +29,7 @@
         <developer>
             <name>wangjia</name>
             <email>wangjia_1919@163.com</email>
-            <url>https://blog.aimer.love</url>
+            <url>https://blog.javed.win</url>
         </developer>
     </developers>
 
@@ -108,8 +108,14 @@
     <distributionManagement>
         <repository>
             <id>nexus-releases</id>
-            <name>Nexus Repository</name>
-            <url>http://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <name>Nexus Releases Repository</name>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+        </repository>
+
+        <repository>
+            <id>nexus-snapshot</id>
+            <name>Nexus Snapshot Repository</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </repository>
     </distributionManagement>
 </project>
