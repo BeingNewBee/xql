@@ -106,16 +106,16 @@
     </dependencies>
 
     <distributionManagement>
+        <snapshotRepository>
+            <id>nexus-snapshot</id>
+            <name>Nexus Snapshot Repository</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+
         <repository>
             <id>nexus-releases</id>
             <name>Nexus Releases Repository</name>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
-        </repository>
-
-        <repository>
-            <id>nexus-snapshot</id>
-            <name>Nexus Snapshot Repository</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </repository>
     </distributionManagement>
 </project>
