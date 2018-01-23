@@ -7,7 +7,7 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>win.javed</groupId>
+    <groupId>love.aimer</groupId>
     <artifactId>lulu</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
@@ -20,16 +20,16 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/lollipoppp/lulu</url>
-        <connection>git@github.com:lollipoppp/lulu.git</connection>
-        <developerConnection>scm:git:git@github.com:lollipoppp/lulu.git</developerConnection>
+        <url>https://github.com/yunsu2/lulu</url>
+        <connection>git@github.com:yunsu2/lulu.git</connection>
+        <developerConnection>scm:git:git@github.com:yunsu2/lulu.git</developerConnection>
     </scm>
 
     <developers>
         <developer>
             <name>wangjia</name>
             <email>wangjia_1919@163.com</email>
-            <url>https://blog.javed.win</url>
+            <url>https://blog.aimer.love</url>
         </developer>
     </developers>
 
