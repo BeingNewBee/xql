@@ -1,0 +1,19 @@
+lu:
+  jdbc:
+    driver:
+    url:
+    userName:
+    password:
+
+    defaultAutoCommit:
+
+  pool:
+    maximumActiveConnections:
+    maximumIdleConnections:
+    maximumCheckoutTime:
+    timeToWait:
+    pingQuery:
+    pingConnectionsOlderThan:
+    pingEnabled:
+    pingConnectionsNotUsedFor:
+

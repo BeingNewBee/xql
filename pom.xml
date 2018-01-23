@@ -18,6 +18,7 @@
         <mysql.version>6.0.6</mysql.version>
         <guava.version>23.6-jre</guava.version>
         <h2.version>1.4.196</h2.version>
+        <snakeyaml.version>1.19</snakeyaml.version>
     </properties>
 
     <licenses>
@@ -73,6 +74,13 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>${snakeyaml.version}</version>
+        </dependency>
+
 
         <dependency>
             <groupId>com.google.guava</groupId>

@@ -1,0 +1,2 @@
+datasource:
+  paramsError: "Datasource 初始化参数异常 {}"
