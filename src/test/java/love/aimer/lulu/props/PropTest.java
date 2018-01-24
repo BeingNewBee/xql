@@ -1,9 +1,8 @@
 package love.aimer.lulu.props;
 
-import love.aimer.lulu.utils.PropsReader;
 import org.junit.Test;
-
-import java.util.HashMap;
+import org.springframework.beans.factory.config.YamlMapFactoryBean;
+import org.springframework.core.io.ClassPathResource;
 
 /**
  * @author wj42134
@@ -14,7 +13,9 @@ public class PropTest {
 
     @Test
     public void testProps(){
-        Object object =  PropsReader.yaml2Map("/Users/Erasme/docs/sourceTree/lulu/src/test/resources/lulu/lu-default.yaml");
-        System.out.println(object);
+        YamlMapFactoryBean yaml = new YamlMapFactoryBean();
+        yaml.setResources(new ClassPathResource("lulu/lu-default.yaml"));
+        System.out.println(yaml.getObject());
+
     }
 }
