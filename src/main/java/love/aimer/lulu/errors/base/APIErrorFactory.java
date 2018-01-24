@@ -14,7 +14,7 @@ public class APIErrorFactory extends AbstractErrorFactory {
      */
     @Override
     protected String provideErrorBundleName() {
-        return "sof-api";
+        return "lu-api";
     }
 
     /**
