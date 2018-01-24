@@ -29,8 +29,8 @@ public class APIErrorFactory extends AbstractErrorFactory {
     /**
      * CoreErrorFactoryHolder instance keeper
      * 
-     * @author allen
-     * @version $Id: APIErrorFactoryHolder.java, v 0.1 2016年2月26日 下午4:20:31 allen Exp $
+     * @author Erasme
+     * @version v0.1 2018-01-24 10:53
      */
     private static final class APIErrorFactoryHolder {
         /** instance */
