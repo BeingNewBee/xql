@@ -1,16 +1,37 @@
 package love.aimer.lulu.exceptions;
 
+import love.aimer.lulu.errors.base.LuError;
+
 /**
- * @author wj42134
- * @date 2018/1/23 23:50
+ * @author Erasme
+ * @version v0.1 2018-01-24 10:53
  */
-public class LuDatasourceException {
-    private static LuDatasourceException ourInstance = new LuDatasourceException();
+public class LuDatasourceException extends LuException {
 
-    public static LuDatasourceException getInstance() {
-        return ourInstance;
+    /**  */
+    private static final long serialVersionUID = 4755634379864220782L;
+
+    /**
+     * @param error
+     * @param cause
+     */
+    public LuDatasourceException(LuError error, Throwable cause) {
+        super(error, cause);
     }
 
-    private LuDatasourceException() {
+    /**
+     * @param error
+     */
+    public LuDatasourceException(LuError error) {
+        super(error);
     }
+
+    /**
+     * @param cause
+     */
+    public LuDatasourceException(Throwable cause) {
+        super(cause);
+    }
+
+
 }
