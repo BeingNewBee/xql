@@ -15,7 +15,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>4.12</junit.version>
         <logback.version>1.2.3</logback.version>
-        <mysql.version>6.0.6</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
         <guava.version>23.6-jre</guava.version>
         <h2.version>1.4.196</h2.version>
         <snakeyaml.version>1.19</snakeyaml.version>
