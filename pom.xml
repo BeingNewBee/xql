@@ -16,7 +16,7 @@
         <junit.version>4.12</junit.version>
         <logback.version>1.2.3</logback.version>
         <mysql.version>8.0.16</mysql.version>
-        <guava.version>23.6-jre</guava.version>
+        <guava.version>24.1.1-jre</guava.version>
         <h2.version>1.4.196</h2.version>
         <snakeyaml.version>1.19</snakeyaml.version>
         <spring.version>5.0.3.RELEASE</spring.version>
